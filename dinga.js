@@ -34,7 +34,7 @@ function getDates(){
 	var DATES = [];
 	
 	// select open dates elements
-	var d = document.querySelectorAll('.dispo');
+	var d = document.querySelectorAll("dispo");
 	
 	// loop through encountered open dates elements
 	d.forEach( function( item, i ){
