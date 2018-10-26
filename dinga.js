@@ -34,7 +34,7 @@ function getDates(){
 	var DATES = [];
 	
 	// select open dates elements
-	var d = document.querySelectorAll("dispo");
+	var d = document.querySelectorAll('.dispo');
 	
 	// loop through encountered open dates elements
 	d.forEach( function( item, i ){
@@ -91,7 +91,7 @@ function displayConfirmModal( date, timestamp, skey ){
 			
 		var f = document.createElement('form');
 			f.setAttribute( "method", "post");
-			f.setAttribute( "action", "https://dz2fr.tlscontact.com/dz/ORN/action.php");
+			f.setAttribute( "action", "https://fr.tlscontact.com/dz/ORN/action.php");
 			f.setAttribute( "name", "ajax_confirm_action");
 			f.setAttribute( "id", "ajax_confirm_action");
 			f.setAttribute( "onsubmit", "ajaxPostForm(this, 'multiconfirm', true); return false;");
