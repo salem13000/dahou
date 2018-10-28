@@ -48,9 +48,7 @@ function getDates(){
 		// populate DATES array
 		
 			date= day;
-			time= time;
-			timeStamp= timeStamp;
-			sKey= sKey;
+			
 		 
 	});
 	
